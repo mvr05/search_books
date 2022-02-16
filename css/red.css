@@ -1,0 +1,21 @@
+*{
+    color: #000;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+.redakt{
+    display: flex;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+.table_redakt{
+    margin: 0 auto;
+}
+
+.form_redakt{
+    margin: 0 auto;
+}

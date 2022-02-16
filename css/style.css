@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+input[type="text"],
+select{
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    width: 250px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.header{
+    background-color: #9999CC;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header_text{
+    text-decoration: none;
+    font-size: 42px;
+    padding: 15px;
+    color: #fff;
+}
+
+.header_text_link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.search_books{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.search{
+    margin-bottom: 10px;
+}
+
+.form_search{
+    margin-right: 150px;
+}
+
+.search_surname{
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: #9999CC;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover{ 
+    color: #fff;
+    transition: 0.5s;
+}
+
+.redakt-div{
+    width: 180px;
+    height: 44px;
+    background-color: #9999CC;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.redakt{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.redakt:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+}
+
+.zagolovok{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background-color: #9999CC;
+}
+
+.delete{
+    text-decoration: none;
+    color: #000;
+}
+
+.all_books{
+    margin-bottom: 30px;
+}
+
+.all_books_b{
+    margin-right: 10px;
+}
+
+.delete:hover{
+    border-bottom: 1px solid #000;
+}
+
+.view_books{
+    margin-bottom: 30px;
+}
